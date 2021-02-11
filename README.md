@@ -1,45 +1,141 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+BKawaii Creations - Marjolein van Leeuwen
+------------------------------------------
+**Full Stack Frameworks with Django**
 
-Welcome USER_NAME,
+This is my 4th Milestone project for Code Institute. 
+I build an e-commerce web application called Bkawaii Creations. ‘Kawaii’ means Cute or Lovely in Japanese. On this web application I sell my own handmade  kawaii facemasks, scrunchies and press-on nails with nail art. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+By creating this web application , I want to show my skills in building a e-commerce website. It is a growing market and e-commerce web applications are getting more and more in demand. 
 
-## Gitpod Reminders
+This e-commerce web application is complete with:
+- product search and filter functionality.	
+- A functional payment system.
+- A full-featured authentication system including email confirmations and user profiles.
+- And real-time notifications that guide the user's experience.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Click here for my deployed project hosted on …..
 
-`python3 -m http.server`
+(Mockup of my web app)
 
-A blue button should appear to click: *Make Public*,
+**UX**
 
-Another blue button should appear to click: *Open Browser*.
+**User stories**
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a user : As a new visitor to BKawaii Creations, I want the page to be easily navigated.
+* As a user: As a new visitor I want clear instructions on how to view all the products and categories.
+* As a user: I want the web application to respond quickly to my interaction.
+* As a user: I want a search option so I can quickly find the product I'd like.
+* As a User: I would like to see reviews of clients who bought my handmade products.
+* As a user: I want the payment service to be easy and clear.
+* As a user: I want to register and login on the web application.
 
-A blue button should appear to click: *Make Public*,
+The ideal user and customer on my web application:
+* Someone who is looking for a cute handmade and unique (kawaii) facemask, scrunchie, press-on nails and/or nail art palettes. 
 
-Another blue button should appear to click: *Open Browser*.
+**Surface**
+* For the surface plane I wanted the design to be pastel coloured and fun. These are the most common used kawaii colours.
+* The colors of my website are : ……….
+* The images used for my products are photographed by myself.
+* I choose the ……….google font for my text on the website.
+* Bkawaii creations logo was designed by myself on canva.com
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+**Skeleton**
 
-## Updates Since The Instructional Video
+I created the wireframes using the program “Balsamiq”. 
+Click [here][a] for my BKawaii Creations wireframes.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+**Structure**
+Interaction and information design
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+**Scope**
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+Business goals
+Customer goals
+Features
+MVP: Minimal Viable Product
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+**Features**
+The web application has been built 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+**Strategy**
+* The goal of the web application is to provide the visitor ……..
+* The websites focuses on 4 main categories: New, Facemasks, Scrunchies and Press-on nails
+* The user can register or login 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+**Database**
+* The database chosen 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+**Technologies**
+Languages
+* HTML5
+* CSS3
+* Javascript
+* Python3
+Libraries
+* Materialize or Bootstrap
+* FontAwesome
+* jQuery
+* Dnspython
+* Flask
+* Flask-PyMongo
+* PyMongo
+Database
+* ………
+Hosting
+* Github
+* Heroku
 
---------
 
-Happy coding!
+
+**CRUD functions**
+…………..
+
+
+**Testing**
+All testing carried out was done manually
+Testing problems I encountered:
+* ………
+* ……..
+
+**Bugs discovered**
+
+Solved Bugs
+1. …….
+
+**Testing client stories from UX section of README.MD**
+
+**Code Validation**
+
+**Responsive design**
+
+**Deployment**
+
+**Credits**
+**Content**
+The text content on the website was written by me.
+
+**Media**
+* …………….
+
+CODE used from:
+* ……
+* ……..
+* …….
+
+Acknowledgements
+I got inspiration from:
+* The ………
+* The Boutique Ado Project from Code Institute module 12
+* The photos used in this site were obtained from ...
+* I received inspiration for this project from X
+* User story example: https://ascendle.com/ideas/writing-user-stories-its-not-as-difficult-as-you-think/
+* https://www.blippo.com/beauty/cosmetics
+* https://maskclub.com/
+* Inspired bij the checkout page from spoonflower.com
+* Canva.com backgrounds web application
+* 
+
+I want to thank my mentor Brian M for guiding me through the process of creating my web application
+
+[a]: <https://github.com/Sweetzia/BKawaii-Creations/blob/aed187f71c9b048d8ff4a2e83cebc0810897a2a7/static/wireframes/4th%20Milestone%20Project%20BKawaii%20Creations.pdf>
