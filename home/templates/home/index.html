@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% load static %}
+
+  <!-- Used the code from the Code Institute Project - Boutique Ado - and adjusted it for my own web application -->
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+
+
+<div class="container h-100">
+        <div class="row h-100">
+            <div class="row g-0"></div>
+  <div class="col-sm-6 col-md-8"></div>
+  <h1 class="display-4 logo-font text-black">
+                    Kawaii Facemasks
+                </h1>
+                <div class="col-7 col-md-6 my-auto">
+                <div class="my-5">
+                    <h4>
+                          <!-- Used Bootstrap code -->
+                        <a href="" class="get-now-button btn btn-lg rounded-0 text-uppercase py-3">GET IT NOW</a>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
+<div class="col-6 col-md-4"></div>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/media/facemasks.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/media/nail%20art%20palettes.jpeg" class="d-block w-100" alt="...">
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden"></span>
+  </a>
+</div>
+   <!-- START: ABOUT -->
+     <!--Used code from youtube tutorial Traversy Media about creating a basic parallax website with HTML and CSS -->
+             <div id="div_about"></div>
+      <section class="section-white">
+         <h1>
+             About BKawaii Creative</h1>
+             <br>
+         <p>I love creating handmade Kawaii Facemasks, Scrunchies and Nailart! 
+                    Since 2020 I’ve been starting these hobby’s and sending the message of wearing (non medical) facemasks during the covid-19 pandemic. 
+                    You're never too old to enjoy a positive approach in life.  And with wearing a Kawaii Facemask, scrunchie or cute press-on nails, you can bring a smile to peoples faces. 
+                    Stay Cute & Healthy!
+            
+         </p>
+      </section>
+
+      <!-- END: ABOUT -->
+
+<br>
+<br>
+<br>
+
+     <!-- Start: Customer Reviews -->
+     <!-- https://www.w3schools.com/howto/howto_css_testimonials.asp -->
+
+ <div id="div_customer"></div>
+      <section class="section-white">
+         <h1>
+             Customer Review</h1>
+             <br>
+
+         <div class="container">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm">
+      <img src="student.jpg" alt="student" style="width:90px">
+      <p>I love the hello kitty facemask!</p>
+    </div>
+    <div class="col-sm">
+     <img src="student.jpg" alt="student" style="width:90px">
+     <p>Very satisfied with the nail art palette, love the glitter!</p>
+    </div>
+    <div class="col-sm">
+     <img src="student.jpg" alt="student" style="width:90px">
+     <p>The scrunchie is sooo cute and original</p>
+    </div>
+  </div>
+</div>
+   </section>
+    <!-- END: Customer Reviews -->
+
+
+        <!-- START: FOOTER -->
+        
+      <!--END: FOOTER-->
+
+
+      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+   </body>
+</html>
+{% endblock %}
