@@ -27,7 +27,4 @@ class CategoryAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
+
