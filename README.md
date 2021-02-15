@@ -105,6 +105,8 @@ Solved Bugs
 
 **Testing client stories from UX section of README.MD**
 
+**Functionality**
+
 **Code Validation**
 
 **Responsive design**
