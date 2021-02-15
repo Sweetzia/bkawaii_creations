@@ -88,6 +88,12 @@ body {
 	z-index: -1;
 }
 
+/* Hover on categories button */
+a.category-badge > span.badge:hover {
+    background: #b19cd9 !important;
+    color: #fff !important;
+}
+
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
