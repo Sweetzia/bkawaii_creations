@@ -8,11 +8,11 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
 <!--Sort the products by price, rating and category-->
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=asc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
  <!-- Show all the products-->               
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+                <a href="{% url 'products' %}?category=hello_kitty_facemask,kawaii_facemask,press_on_nails,nailart_palettes" class="dropdown-item">All Products</a>
             </div>
         </li>
 
@@ -21,9 +21,9 @@
                 Facemasks
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="facemasks-link">
-                <a href="" class="dropdown-item">Hello Kitty</a>
-                <a href="" class="dropdown-item">Kawaii</a>
-                <a href="" class="dropdown-item">All Facemasks</a>
+                <a href="{% url 'products' %}?category=hello_kitty_facemask" class="dropdown-item">Hello Kitty</a>
+                <a href="{% url 'products' %}?category=kawaii_facemask" class="dropdown-item">Kawaii</a>
+                <a href="{% url 'products' %}?category=hello_kitty_facemask,kawaii_facemask" class="dropdown-item">All Facemasks</a>
             </div>
         </li>
 
@@ -32,9 +32,9 @@
                 Nail Art
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="Nailart-link">
-                <a href="" class="dropdown-item">Press-on Nails</a>
-                <a href="" class="dropdown-item">Nail Art Palletes</a>
-                <a href="" class="dropdown-item">All Nail Art Products</a>
+                <a href="{% url 'products' %}?category=press_on_nails" class="dropdown-item">Press-on Nails</a>
+                <a href="{% url 'products' %}?category=nailart_palettes" class="dropdown-item">Nail Art Palletes</a>
+                <a href="{% url 'products' %}?category=press_on_nails,nailart_palettes" class="dropdown-item">All Nail Art Products</a>
             </div>
         </li>
     </ul>
