@@ -1,11 +1,14 @@
 from django.shortcuts import render, redirect
 
-# Create your views here. Used Code from Code Institute - Project Boutique Ado -
+# Create your views here. Used Code from Code Institute 
+# - Project Boutique Ado -
+
 
 def view_bag(request):
     """ A view that renders the shoppingbag contents page """
 
     return render(request, 'bag/bag.html')
+
 
 def add_to_bag(request, item_id):
     """ Add a quantity of the specified product to the shopping bag """
