@@ -83,6 +83,13 @@ body {
     color: white;
 }
 
+/* update and remove button in shoppingbag */
+.btt-link,
+.update-link,
+.remove-item {
+    cursor: pointer;
+}
+
 .text-black {
     color: #000 !important;
 }
