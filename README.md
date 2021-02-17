@@ -136,7 +136,7 @@ I got inspiration from:
 * https://maskclub.com/
 * Inspired bij the checkout page from spoonflower.com
 * Canva.com backgrounds web application
-* 
+* Merging git branches, this video helped me : https://www.youtube.com/watch?v=S2TUommS3O0
 
 I want to thank my mentor Brian M for guiding me through the process of creating my web application
 
