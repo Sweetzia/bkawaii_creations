@@ -5,7 +5,7 @@
     https://stripe.com/docs/stripe-js
 */
 
-/* Used the code from the Code Institute Project - Boutique Ado */
+/* Used the code from the Code Institute Project - Boutique Ado - adjusted it to my project */
 
 var stripe_public_key = $('#id_stripe_public_key').text().slice(1, -1);
 var client_secret = $('#id_client_secret').text().slice(1, -1);
@@ -14,7 +14,7 @@ var elements = stripe.elements();
 var style = {
     base: {
         color: '#000',
-        fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+        fontFamily: '"Montserrat", sans-serif',
         fontSmoothing: 'antialiased',
         fontSize: '16px',
         '::placeholder': {
