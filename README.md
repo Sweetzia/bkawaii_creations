@@ -101,7 +101,7 @@ Testing problems I encountered:
 **Bugs discovered**
 
 Solved Bugs
-1. …….
+1. Crispy Form styling not working when I go to secure checkout.
 
 **Testing client stories from UX section of README.MD**
 

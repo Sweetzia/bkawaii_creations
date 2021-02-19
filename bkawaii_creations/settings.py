@@ -46,8 +46,6 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'checkout',
-
-    # Other
     'crispy_forms',
 ]
 
@@ -79,6 +77,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',  # required to make the allauth templates work right.
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media', # so we can access the no image file in the media folder
                 'bag.contexts.bag_contents',
             ],
             'builtins': [

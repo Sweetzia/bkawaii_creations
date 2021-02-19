@@ -5,6 +5,8 @@ from django.contrib import messages
 from .forms import OrderForm
 
 # create checkout view
+
+
 def checkout(request):
     bag = request.session.get('bag', {})
     if not bag:
