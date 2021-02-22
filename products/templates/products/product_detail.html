@@ -31,7 +31,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ product.name }}</p>
-                    <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
+                    <p class="lead mb-0 text-left font-weight-bold">€{{ product.price }}</p>
 <!-- Category link, render the product category out using its friendly name as the text-->
                                             {% if product.category %}
                                             <p class="small mt-1 mb-0">
@@ -113,8 +113,8 @@
         var currentValue = parseInt($(`#id_qty_${itemId}`).val());
         var minusDisabled = currentValue < 1;
         var plusDisabled = currentValue > 3;
-        $(`#decrement-qty_${itemId}`).prop('disabled', minusDisabled);
-        $(`#increment-qty_${itemId}`).prop('disabled', plusDisabled);
+        €(`#decrement-qty_${itemId}`).prop('disabled', minusDisabled);
+        €(`#increment-qty_${itemId}`).prop('disabled', plusDisabled);
     }
 
     // Ensure proper enabling/disabling of all inputs on page load
@@ -125,28 +125,28 @@
     }
 
     // Check enable/disable every time the input is changed
-    $('.qty_input').change(function() {
-        var itemId = $(this).data('item_id');
+    €('.qty_input').change(function() {
+        var itemId = €(this).data('item_id');
         handleEnableDisable(itemId);
     });
 
     // Increment quantity
-    $('.increment-qty').click(function(e) {
+    €('.increment-qty').click(function(e) {
        e.preventDefault();
-       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
-       var currentValue = parseInt($(closestInput).val());
+       var closestInput = €(this).closest('.input-group').find('.qty_input')[0];
+       var currentValue = parseInt(€(closestInput).val());
        $(closestInput).val(currentValue + 1);
-       var itemId = $(this).data('item_id');
+       var itemId = €(this).data('item_id');
        handleEnableDisable(itemId);
     });
 
     // Decrement quantity
-    $('.decrement-qty').click(function(e) {
+    €('.decrement-qty').click(function(e) {
        e.preventDefault();
-       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
-       var currentValue = parseInt($(closestInput).val());
-       $(closestInput).val(currentValue - 1);
-       var itemId = $(this).data('item_id');
+       var closestInput = €(this).closest('.input-group').find('.qty_input')[0];
+       var currentValue = parseInt(€(closestInput).val());
+       €(closestInput).val(currentValue - 1);
+       var itemId = €(this).data('item_id');
        handleEnableDisable(itemId);
     });
 </script>
