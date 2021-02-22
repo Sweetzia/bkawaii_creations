@@ -7,9 +7,9 @@
 
 /* Used the code from the Code Institute Project - Boutique Ado - adjusted it to my project */
 
-var stripe_public_key = $('#id_stripe_public_key').text().slice(1, -1);
-var client_secret = $('#id_client_secret').text().slice(1, -1);
-var stripe = Stripe(stripe_public_key);
+var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
+var clientSecret = $('#id_client_secret').text().slice(1, -1);
+var stripe = Stripe(stripePublicKey);
 var elements = stripe.elements();
 var style = {
     base: {
@@ -52,6 +52,7 @@ form.addEventListener('submit', function(ev) {
     ev.preventDefault();
     card.update({ 'disabled': true});
     $('#submit-button').attr('disabled', true);
+    // Send card information safely to Stripe
     stripe.confirmCardPayment(clientSecret, {
         payment_method: {
             card: card,
@@ -68,7 +69,7 @@ form.addEventListener('submit', function(ev) {
             card.update({ 'disabled': false});
             $('#submit-button').attr('disabled', false);
         } else {
-            if (result.paymentIntent.status === 'succeeded') {
+            if (result.paymentIntent.status === 'succeeded') { //show succes message
                 form.submit();
             }
         }
