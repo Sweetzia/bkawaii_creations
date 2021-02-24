@@ -126,6 +126,10 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+input[name='q']::placeholder {
+    color: black;
+}
+
 /*  bootstrap toasts */
 
 .message-container {
@@ -240,12 +244,13 @@ a.category-badge > span.badge:hover {
 .allauth-form-inner-content button:hover,
 .allauth-form-inner-content input[type='submit']:hover {	
 	color: #fff;
-    background-color: #222;
-    border-color: #222;
+    background-color: #b19cd9;
+    border-color: #b19cd9;
 }
 
 .allauth-form-inner-content a {
-	color: pink; /* text-info */
+    color: #000; /* text-info */
+    font-weight: bold;
 }
 
 /*  Media Queries */

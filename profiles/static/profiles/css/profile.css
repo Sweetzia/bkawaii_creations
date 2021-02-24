@@ -1,0 +1,19 @@
+/*  Used the code from the Code Institute Project - Boutique Ado - 
+and adjusted the colors to my own project*/
+
+#profile-update-form input::placeholder {
+    color: grey;
+}
+
+#profile-update-form .form-control {
+    color: #000;
+}
+
+#id_default_country,
+#id_default_country option:not(:first-child) {
+    color: #000;
+}
+
+#id_default_country option:first-child {
+    color: grey;
+}
