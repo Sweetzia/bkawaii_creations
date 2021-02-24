@@ -17,3 +17,8 @@ and adjusted the colors to my own project*/
 #id_default_country option:first-child {
     color: grey;
 }
+
+.order-history {
+    max-height: 416px; /* height of profile form + submit button */
+    overflow-y: auto;
+}
