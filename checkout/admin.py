@@ -2,7 +2,7 @@
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
-
+# Used the code from the Code Institute Project - Boutique Ado -
 # allow add and edit line items in the admin
 class OrderLineItemAdminInline(admin.TabularInline):
     model = OrderLineItem
