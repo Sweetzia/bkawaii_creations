@@ -151,14 +151,14 @@
    <!-- Using block.super will ensure we append this code to anything already in the block as apposed to replacing it -->
     {{ block.super }}
     <script type="text/javascript">
-		€('.btt-link').click(function(e) {
+		$('.btt-link').click(function(e) {
 			window.scrollTo(0,0)
 		})
 	</script>
      <!-- Using URL object will give nice functionality to replace the current get parameters -->
     <script type="text/javascript">
-        €('#sort-selector').change(function() {
-            var selector = €(this);
+        $('#sort-selector').change(function() {
+            var selector = $(this);
             var currentUrl = new URL(window.location);
 
             var selectedVal = selector.val();
