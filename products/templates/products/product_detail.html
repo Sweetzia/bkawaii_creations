@@ -46,6 +46,13 @@
                     {% else %}
                         <small class="text-muted">No Rating</small>
                     {% endif %}
+                   <!-- Superuser is able to edit and delete products in the product admin-->
+                                            {% if request.user.is_superuser %}
+                                                <small class="ml-3">
+                                                    <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                                    <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                                                </small>
+                                            {% endif %}
                     <p class="mt-3">{{ product.description }}</p>
                      <!-- This form uses the post method to send informtion to the server about the product, to add to the bag-->
                     <form class="form" action="{% url 'add_to_bag' product.id %}" method="POST">
