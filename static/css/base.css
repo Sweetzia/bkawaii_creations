@@ -358,6 +358,7 @@ input[name='q']::placeholder {
 {
   padding-left:0;
   list-style:none
+  
 }
 .footer-links li
 {
@@ -365,7 +366,8 @@ input[name='q']::placeholder {
 }
 .footer-links a
 {
-  color:#737373
+  color:#ea4c89;
+  font-weight: bold;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
