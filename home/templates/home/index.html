@@ -12,6 +12,8 @@
 
 {% block content %}
 
+<html>
+    <body>
 <!-- START Jumbotron. Bootstrap code from https://getbootstrap.com/docs/4.0/components/jumbotron/-->
 <div class="jumbotron jumbotron-fluid">
   <div class="container">
@@ -29,31 +31,58 @@
   </div>
 </div>
 
-<!-- https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards -->
 
+     <!-- Start: About -->
+     <!-- Used code from the Blippo.com website -->
+
+<section>
+   <div style="background-color: white">
+	<div class="container">
+		<div style="padding-top: 80px; padding-bottom: 80px;" class="inner-container">
+
+            <h2 class="homepage-headline" style="text-align: left;">About Bkawaii Creations</h2>
+            <br>
+			<p style="text-align: left; font-size: 16px; color: #999; line-height: 23px;">I love creating handmade Kawaii Facemasks, Scrunchies and Nailart! 
+                    Since 2020 I’ve been starting these hobby’s and sending the message of wearing facemasks during the covid-19 pandemic. 
+                    You're never too old to enjoy a positive approach in life.  And with wearing a Kawaii Facemask, scrunchie or cute press-on nails, you can bring a smile to peoples faces.<br>
+                    <br>
+                    <i> Stay Cute & Healthy </i>
+                <br>
+            <i> Sweetzia </i></p>
+            </div>
+        </section>
+
+    <!-- END: About -->
+
+
+<!-- START multi item carousel code from: https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards -->
+
+<section>
 <div class="container text-center my-3">
-    <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2>
+    <div style="padding-top: 10px; padding-bottom: 80px;" class="inner-container"></div>
+    <h2 class="font-weight-light" style="text-align: left;" >Most Popular Kawaii products</h2>
+    <br>
     <div class="row mx-auto my-auto">
         <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
             <div class="carousel-inner w-100" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=1">
+                            <img class="img-fluid" src="/media/nail%20art%20palettes.jpeg">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=2">
+                            <img class="img-fluid" src="/media/nail%20art%20palettes.jpeg">
                         </div>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <img class="img-fluid" src=src="/media/nail%20art%20palettes.jpeg">
+                            <img class="img-fluid" src="/media/nail%20art%20palettes.jpeg">
                         </div>
                     </div>
                 </div>
@@ -89,76 +118,29 @@
             </a>
         </div>
     </div>
-    <h5 class="mt-2">Advances one slide at a time</h5>
 </div>
+<br>
+</section>
 
-    <!-- https://getbootstrap.com/docs/4.0/components/carousel/ -->
-<div class="col-6 col-md-4"></div>
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="/media/facemasks.jpeg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="/media/nail%20art%20palettes.jpeg" class="d-block w-100" alt="...">
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden"></span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden"></span>
-  </a>
-</div>
-
-     <!-- Start: Customer Reviews -->
-
-<section>
-   <div style="background-color: white">
-	<div class="container">
-		<div style="padding-top: 80px; padding-bottom: 80px;" class="inner-container">
-
-            <h2 class="homepage-headline" style="text-align: center;">What do our customers say?</h2>
-			<p style="text-align: center; font-size: 16px; color: #999; line-height: 23px;"><div class="container"></p>
-  <div class="container">
-  <div class="row">
-    <div class="col-sm">
-      <img src="student.jpg" alt="student" style="width:90px">
-      <p>I love the hello kitty facemask!</p>
-    </div>
-    <div class="col-sm">
-     <img src="student.jpg" alt="student" style="width:90px">
-     <p>Very satisfied with the nail art palette, love the glitter!</p>
-    </div>
-    <div class="col-sm">
-     <img src="student.jpg" alt="student" style="width:90px">
-     <p>The scrunchie is sooo cute and original</p>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-        </section>
-    <!-- END: Customer Reviews -->
+<!-- END: Carousel -->
 
 
-
-        <!-- START: FOOTER -->
+ <!-- START: FOOTER -->
  <!-- https://codepen.io/scanfcode/pen/MEZPNd -->
+  <!-- https://blippo.com -->
 
     <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-6">
-            <h6>Bkawaii Creatives</h6>
-            <p class="text-justify"> I love creating handmade Kawaii Facemasks, Scrunchies and Nailart! 
-                    Since 2020 I’ve been starting these hobby’s and sending the message of wearing (non medical) facemasks during the covid-19 pandemic. 
-                    You're never too old to enjoy a positive approach in life.  And with wearing a Kawaii Facemask, scrunchie or cute press-on nails, you can bring a smile to peoples faces.<br>
-                    <br>
-                    <i> Stay Cute & Healthy </i>
-                <br>
-            <i> Sweetzia </i></p>
+            <h6>Do you have a question? </h6>
+            <p class="text-justify"> Please send me a message and I will reply within 3 business days. I also warmly welcome feedback, questions, suggestions, and ideas for improving my store services. Thank You! <br>
+                    </p>
+                    <div class="feature indent first">
+			<span class="ic ic-letter ic-lg ib"></span>
+            <p class="no-margin" style="padding-bottom: 0px; padding-top: 8px;">
+                <b>E-Mail:</b> <a href="mailto:bkawaiicreations@gmail.com"> bkawaiicreations@gmail.com</a></p>
+		</div>
           </div>
 
           <div class="col-xs-6 col-md-3">
@@ -167,7 +149,6 @@
           <div class="col-xs-6 col-md-3">
             <h6>Need Help?</h6>
             <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">Contact Us</a></li>
               <li><a href="http://scanfcode.com/contact/">Shipping & Returns</a></li>
               <li><a href="http://scanfcode.com/contribute-at-scanfcode/">COVID-19 updates</a></li>
             </ul>
@@ -201,7 +182,7 @@
 </html>
 {% endblock %}
 
-
+<!-- multi item carousel code from: https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards -->
 <script>
 $('#recipeCarousel').carousel({
   interval: 10000

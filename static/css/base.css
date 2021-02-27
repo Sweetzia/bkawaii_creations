@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: white;
+    background: #f0ecff;
     background-size: cover;
     height: calc(100vh - 200px);
     color:#474545;
@@ -15,15 +15,15 @@ body {
 }
 
 .jumbotron {
-height: 100vh;
+height: 80vh;
+background: #f0ecff;
 
 }
 
-.carousel-inner {
-    opacity: 0.85;
-}
 
-/* multi item carousel */
+
+
+/* multi item carousel code from codepy: https://getbootstrap.com/docs/4.0/components/carousel/ */
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
@@ -322,7 +322,7 @@ input[name='q']::placeholder {
 
 .site-footer
 {
-  background-color:#f0ecff;
+  background-color:#ffeaf0;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -351,7 +351,7 @@ input[name='q']::placeholder {
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:black !important;
   text-decoration:none;
 }
 .footer-links
