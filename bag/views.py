@@ -45,7 +45,7 @@ def adjust_bag(request, item_id):
     if size:
         if quantity > 0:
             bag[item_id] = quantity
-            
+                   
         else:
             del bag[item_id]
             if not bag[item_id]:
