@@ -1,1 +1,1 @@
-web: gunicorn bkawaii_creations.wsgi.application
+web: gunicorn bkawaii_creations.wsgi:application

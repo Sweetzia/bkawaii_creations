@@ -77,95 +77,105 @@ So I searched for a solution on google and finally discoverd this tip on https:/
 I had no git merge conflicts anymore and my profiles app was added to my master branch. The only thing was, that I had to create a new superuser to gain access to my django administration.
 
 
-**Structure**
-Interaction and information design
 
-**Scope**
+Main Technologies Used
 
-Business goals
-Customer goals
-Features
-MVP: Minimal Viable Product
+Languages used
+* This project uses HTML, CSS, JavaScript and Python programming languages.
 
-**Features**
-The web application has been built 
+Tools used
+* Balsamiq to create the wireframes for this project.
+* Django as python web framework 
+* Git to handle version control.
+* GitHub to store the project code remotely.
+* PIP for installation of tools needed in this project - pip3 install django - pip3 install django-allauth - pip3 install pillow - pip3 install django-crispy-forms - pip3 install django-countries
+* Stripe as payment platform to validate and accept credit card payments securely.
+* Heroku for deployment
+* Django Crispy Forms to style django forms.
 
-
-**Strategy**
-* The goal of the web application is to provide the visitor ……..
-* The websites focuses on 4 main categories: New, Facemasks, Scrunchies and Press-on nails
-* The user can register or login 
-
-**Database**
-* The database chosen 
-
-**Technologies**
-Languages
-* HTML5
-* CSS3
-* Javascript
-* Python3
-Libraries
-* Materialize or Bootstrap
-* FontAwesome
+Libraries utilised
+* Google Fonts to style the website fonts.
+* FontAwesome to provide icons for the online store.
+* Bootstrap 4 to simplify the structure of the website and make the website responsive easily.
 * jQuery
-* Dnspython
-* Flask
-* Flask-PyMongo
-* PyMongo
-Database
-* ………
-Hosting
-* Github
-* Heroku
+
+Databases
+
+Databases used
+During development on my local machine I worked with the standard sqlite3 database installed with Django. On deployment, the SQL database provided by Heroku is a PostgreSQL database.
+
+Testing
+
+Manual User testing:
+This was the primary method of testing the application. I tested the app manually myself and asked relatives to go to my website and give his feedback.
+
+(link to view PDF of testing functionality throughout my web application)
+
+Below are the list of Internet Browsers that were used to test the display of the website:
+1. Google Chrome (Version 77.0)
+2. Mozilla Firefox
+3. Internet Explorer 11
+Manual testing was carried out using the above browsers. No bugs or display issues.
+
+Below are the list of websites I used to test the HTML, CSS, JS and Python code:
+1. W3C HTML Validator This is a HTML online validitor.
+2. W3C CSS Validator This is a CSS online validitor.
+3. CSS Lint CSS Lint is an open source CSS code quality tool I used.
+4. https://extendsclass.com/python-tester.html Python Syntax Checker from extendsclass.com. Python checker allows to check your Python code syntax (Python 3), and find Python errors.
+
+Deployment
+
+Deployment
+The project is stored in a GitHub repository and hosted on Heroku.
+
+I followed the next steps to deploy Bkawaii Creations on the GitHub pages:
+* Log into GitHub.
+* Select Sweetzia/bkawaii_creations in the repository list.
+* Go to Settings
+* Scroll down to the GitHub Pages section.
+* Select the Master Branch
+* On selecting Master Branch the page is automatically refreshed.
+* The link can be retrieved to the deployed website.
+
+I followed the next steps to host bkawaii creations on Heroku:
+* Created a new application using the Heroku dashboard.
+* Go to settings.py in gitpod bkawaii creations and added heroku database settings
+* $ pip3 manage.py showmigrations
+* $ Pip3 manage.py migrate
+* Remoded Heroku database settings, so  my database URL wouldn't end up in version control.
+* pip 3 installed gunicorn and added a Procfile, to tell Heroku to create a web dyno, which will run unicorn and serve my django app.
+* temporarily disable collectstatic by using: $ heroku config:set DISABLE_COLLECTSTATIC=1 —app bkawaii-creations
+* Log into Heroku via the gitpod terminal using '$ heroku login -i' and follow the on screen instructions to log in.
+* Connect GitHub to Heroku in deployment method in Heroku
+* $ heroku git:remote -a bkawaii-creations
+* Deploy project to Heroku in the Gitpod terminal using '$ git push heroku master'.
+* Create SECRET_KEY and add it with the Config Vars in Heroku.
+*  "Manual Deploy", select the master branch then click "Deploy Branch"
+* Once the build is complete, click on the "View app" button.
+* Open app in Heroku, succesfully deployed app!
 
 
-
-**CRUD functions**
-…………..
-
-
-**Testing**
-All testing carried out was done manually
-Testing problems I encountered:
-* ………
-* ……..
-
-**Bugs discovered**
-
-Solved Bugs
-1. Crispy Form styling not working when I go to secure checkout.
-
-**Testing client stories from UX section of README.MD**
-
-**Functionality**
-
-**Code Validation**
-
-**Responsive design**
-
-**Deployment**
-
-**Credits**
-**Content**
+Credits Content 
 The text content on the website was written by me.
 
-**Media**
-* …………….
+Media
+* All my own handmade product images were photographed by myself.
 
 CODE used from:
-* ……
+* The Boutique Ado Project from Code Institute module 12
 * ……..
 * …….
 
-Acknowledgements
-I got inspiration from:
-* The ………
+Acknowledgements:
+* The final milestone project from haydal810: https://github.com/Code-Institute-Submissions/haydal810-Milestone-Project-4
 * The Boutique Ado Project from Code Institute module 12
+
+
+I got inspiration from:
+* My favorite kawaii website: www.blippo.com
 * The photos used in this site were obtained from ...
 * I received inspiration for this project from X
 * User story example: https://ascendle.com/ideas/writing-user-stories-its-not-as-difficult-as-you-think/
-* https://www.blippo.com/beauty/cosmetics
 * https://maskclub.com/
 * Inspired bij the checkout page from spoonflower.com
 * Canva.com backgrounds web application
