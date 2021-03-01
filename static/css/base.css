@@ -1,35 +1,65 @@
+
 html {
     height: 100%;
 }
 
 body {
-    background: white;
+    background: #f0ecff;
     background-size: cover;
     height: calc(100vh - 200px);
-    color: black;
-    font-family: 'Montserrat', sans-serif;
+    color:#474545;
+    font-family: 'Quicksand', sans-serif;
 }
 
 #topnav {
    background: url('/media/navbar.png');
 }
 
-.carousel-inner {
-    opacity: 0.85;
+.jumbotron {
+height: 80vh;
+background: #f0ecff;
+
 }
 
-/* Customer reviews. Used code from https://www.w3schools.com/howto/howto_css_testimonials.asp and Code from the youtube tutorial from Traversy Media about creating a basic parallax website with HTML and CSS.*/
 
-.section-white {
-    background-color: white;
-    background-size: cover;
-    height: calc(80vh - 200px);
-    color: black;
-    font-family: 'Montserrat', sans-serif;
-     margin: 70px;
-     text-align: center;
-     padding-bottom: 20px;
+
+
+/* multi item carousel code from codepy: https://getbootstrap.com/docs/4.0/components/carousel/ */
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
 }
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
 
 
 /* From Bulma CSS framework used in the Code Institute Project. Adjusted the code for my own web application. */
@@ -91,7 +121,7 @@ body {
 }
 
 .text-black {
-    color: #000 !important;
+    color:#474545 !important;
 }
 
 .border-black {
@@ -122,7 +152,8 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+.btt-link, .update-link,
+.remove-item {
     cursor: pointer;
 }
 
@@ -258,7 +289,7 @@ input[name='q']::placeholder {
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
-    max-width: 80%;
+    max-width: 85%;
   }
 }
 
@@ -286,4 +317,173 @@ input[name='q']::placeholder {
     body {
         height: calc(100vh - 116px);
     }
+}
+
+/* Footer code from https://codepen.io/scanfcode/pen/MEZPNd */
+/* Adjusted this code for my own web application */
+
+.site-footer
+{
+  background-color:#ffeaf0;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#474545;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#474545;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:black !important;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+  
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#ea4c89;
+  font-weight: bold;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#b19cd9
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:white;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.etsy:hover
+{
+  background-color:orange
+}
+.social-icons a.instagram:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
 }
