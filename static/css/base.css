@@ -1,9 +1,10 @@
+
 html {
     height: 100%;
 }
 
 body {
-    background: #f0ecff;
+    background: white;
     background-size: cover;
     height: calc(100vh - 200px);
     color:#474545;
@@ -16,12 +17,16 @@ body {
 }
 
 .jumbotron {
-background: url(/media/4.png) top center;
-background-size: auto;
-margin-top: 1em;
-padding-top:10em;
-padding-bottom:50em;
-background-repeat: repeat-y;
+    background-image: url('/media/background1.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #474545;
+    border-radius: 0px!important;
+}
+
+.homepage-headline {
+font-weight: 600;
 }
 
 /* From Bulma CSS framework used in the Code Institute Project. Adjusted the code for my own web application. */
@@ -286,7 +291,7 @@ input[name='q']::placeholder {
 
 .site-footer
 {
-  background-color:#ffeaf0;
+  background-color:white;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
