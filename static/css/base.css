@@ -12,6 +12,7 @@ body {
 
 #topnav {
    background: url('/media/navbar.png');
+   background-size: cover;
 }
 
 .jumbotron {
