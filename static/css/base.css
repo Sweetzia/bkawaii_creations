@@ -16,9 +16,12 @@ body {
 }
 
 .jumbotron {
-height: 80vh;
-background: #f0ecff;
-
+background: url(/media/4.png) top center;
+background-size: auto;
+margin-top: 1em;
+padding-top:10em;
+padding-bottom:50em;
+background-repeat: repeat-y;
 }
 
 /* From Bulma CSS framework used in the Code Institute Project. Adjusted the code for my own web application. */
@@ -447,39 +450,24 @@ input[name='q']::placeholder {
   }
 }
 
-/* multi item carousel code from codepy: https://getbootstrap.com/docs/4.0/components/carousel/ */
-@media (max-width: 768px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
+
+/* Three image containers */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;;
 }
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-/* display 3 */
-@media (min-width: 768px) {
-    
-    .carousel-inner .carousel-item-right.active,
-    .carousel-inner .carousel-item-next {
-      transform: translateX(33.333%);
-    }
-    
-    .carousel-inner .carousel-item-left.active, 
-    .carousel-inner .carousel-item-prev {
-      transform: translateX(-33.333%);
-    }
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
-
-.carousel-inner .carousel-item-right,
-.carousel-inner .carousel-item-left{ 
-  transform: translateX(0);
-}
-
-
