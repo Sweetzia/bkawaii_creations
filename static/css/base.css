@@ -14,6 +14,7 @@ body {
 #topnav {
    background: url('/media/navbar.png');
    background-size: cover;
+
 }
 
 .jumbotron {
@@ -23,6 +24,13 @@ body {
     background-position: center;
     color: #474545;
     border-radius: 0px!important;
+}
+
+.jumbotron h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 500%;
+    text-shadow: 0 0 5px #ffd1dc;
+    
 }
 
 .homepage-headline {
