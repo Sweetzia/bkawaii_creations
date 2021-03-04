@@ -181,6 +181,7 @@ I got inspiration from:
 * Canva.com backgrounds web application
 * Merging git branches, this video helped me : https://www.youtube.com/watch?v=S2TUommS3O0
 * Unicorn kawaii image topnav : https://www.freepik.com/free-vector/hand-drawn-kawaii-characters-collection_4098552.htm#page=9&query=kawaii&position=49
+* https://fonts.google.com/specimen/Pacifico?preview.text_type=custom#standard-styles
 
 I want to thank my mentor Brian M for guiding me through the process of creating my web application
 
