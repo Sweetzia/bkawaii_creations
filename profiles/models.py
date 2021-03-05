@@ -1,5 +1,4 @@
 # Used the code from the Code Institute Project - Boutique Ado - 
-
 # Create your models here.
 
 from django.db import models
