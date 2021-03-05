@@ -37,16 +37,7 @@ body {
 font-weight: 600;
 }
 
-p {
-    margin-top: 80px;
-    margin-left: 20px;
-    margin-bottom: 1rem;
-}
 
-button, input {
-    overflow: visible;
-    margin-left: 20px;
-}
 
 /* From Bulma CSS framework used in the Code Institute Project. Adjusted the code for my own web application. */
 .icon {
@@ -145,6 +136,11 @@ a.category-badge > span.badge:hover {
 
 input[name='q']::placeholder {
     color: black;
+}
+
+.password-reset {
+    margin-top: 10px;
+    margin-left: 20px;
 }
 
 /*  bootstrap toasts */
@@ -302,12 +298,6 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
-    }
-
-    p {
-    margin-top: 90px;
-    margin-left: 20px;
-    margin-bottom: 1rem;
     }
 }
 
