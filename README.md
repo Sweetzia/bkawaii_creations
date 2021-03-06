@@ -12,7 +12,7 @@ This e-commerce web application is complete with:
 * Real-time notifications that guide the user's experience.
 * And give store owners the ability to add, edit and delete products in the online store.
 
-Click here for my deployed project hosted on …..
+Click [here][DEMO] for my deployed project hosted on Heroku.
 (Mockup of my web app)
 
 **UX**
@@ -111,6 +111,10 @@ This was the primary method of testing the application. I tested the app manuall
 
 (link to view PDF of testing functionality throughout my web application)
 
+Responsive design
+
+Lola's Cookbook was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness.
+
 Below are the list of Internet Browsers that were used to test the display of the website:
 1. Google Chrome (Version 77.0)
 2. Mozilla Firefox
@@ -137,20 +141,21 @@ I followed the next steps to deploy Bkawaii Creations on the GitHub pages:
 * On selecting Master Branch the page is automatically refreshed.
 * The link can be retrieved to the deployed website.
 
-I followed the next steps to host bkawaii creations on Heroku:
+I followed the next steps to host Bkawaii Creations on Heroku:
 * Created a new application using the Heroku dashboard.
 * Go to settings.py in gitpod bkawaii creations and added heroku database settings
 * $ pip3 manage.py showmigrations
 * $ Pip3 manage.py migrate
-* Remoded Heroku database settings, so  my database URL wouldn't end up in version control.
-* pip 3 installed gunicorn and added a Procfile, to tell Heroku to create a web dyno, which will run unicorn and serve my django app.
+* Removed Heroku database settings, so  my database URL wouldn't end up in version control.
+* pip3 installed gunicorn and added a Procfile, to tell Heroku to create a web dyno, which will run unicorn and serve my django app.
 * temporarily disable collectstatic by using: $ heroku config:set DISABLE_COLLECTSTATIC=1 —app bkawaii-creations
 * Log into Heroku via the gitpod terminal using '$ heroku login -i' and follow the on screen instructions to log in.
 * Connect GitHub to Heroku in deployment method in Heroku
 * $ heroku git:remote -a bkawaii-creations
 * Deploy project to Heroku in the Gitpod terminal using '$ git push heroku master'.
 * Create SECRET_KEY and add it with the Config Vars in Heroku.
-*  "Manual Deploy", select the master branch then click "Deploy Branch"
+* "Manual Deploy", select the master branch then click "Deploy Branch"
+* Created AWS S3 bucket to store static files and media images.
 * Once the build is complete, click on the "View app" button.
 * Open app in Heroku, succesfully deployed app!
 
@@ -185,4 +190,5 @@ I got inspiration from:
 
 I want to thank my mentor Brian M for guiding me through the process of creating my web application
 
+[DEMO]: <https://bkawaiicreations.herokuapp.com/>
 [a]: <https://github.com/Sweetzia/BKawaii-Creations/blob/aed187f71c9b048d8ff4a2e83cebc0810897a2a7/static/wireframes/4th%20Milestone%20Project%20BKawaii%20Creations.pdf>
