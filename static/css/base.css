@@ -266,40 +266,6 @@ input[name='q']::placeholder {
     font-weight: bold;
 }
 
-/*  Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 85%;
-  }
-}
-
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
-    .header-container {
-        padding-top: 116px;
-    }
-
-    body {
-        height: calc(100vh - 116px);
-    }
-}
 
 /* Footer code from https://codepen.io/scanfcode/pen/MEZPNd */
 /* Adjusted this code for my own web application */
@@ -380,13 +346,46 @@ input[name='q']::placeholder {
 {
   margin:0
 }
-@media (max-width:991px)
-{
-  .site-footer [class^=col-]
-  {
-    margin-bottom:30px
+
+
+/* Three image containers */
+.column {
+  float: left;
+  width: 33%;
+  padding: 10px;;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*  Media Queries */
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 85%;
   }
 }
+
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
+    }
+
+    .header-container {
+        padding-top: 140px;
+    }
+}
+
 @media (max-width:767px)
 {
   .site-footer
@@ -460,6 +459,15 @@ input[name='q']::placeholder {
 {
   background-color:#ea4c89
 }
+
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+
 @media (max-width:767px)
 {
   .social-icons li.title
@@ -470,24 +478,58 @@ input[name='q']::placeholder {
   }
 }
 
-
-/* Three image containers */
-.column {
-  float: left;
-  width: 33%;
-  padding: 10px;;
-}
-
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
   .column {
     width: 100%;
   }
 }
+
+/*Code Institute - Boutique Ado project - Used code and adjusted to my own project. */
+
+@media (max-width: 991px) {
+    .header-container {
+        padding-top: 110px;
+    }
+
+    body {
+        height: calc(100vh - 120px);
+    }
+
+    .display-4.logo-font.text-black {
+        font-size: 1,5rem;
+    }
+
+    .nav-link {
+        padding: 0.15rem;
+    }
+
+    .nav-link i.fa-lg {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: .6rem .6rem;
+        font-size: 1rem;
+    }
+
+    #delivery-banner h4 {
+        font-size: .9rem;
+    }
+
+    .btn.btn-outline-black.rounded-0,
+    .btn.btn-black.rounded-0 {
+        padding: .375rem .375rem;
+    }
+
+    .btn.btn-outline-black.rounded-0.btn-lg,
+    .btn.btn-black.rounded-0.btn-lg {
+        padding: .375rem .375rem;
+        font-size: .75rem;
+    }
+
+    .increment-qty, .decrement-qty {
+        padding: .25rem .5rem !important;
+    }
+}
+
