@@ -37,6 +37,14 @@ body {
 font-weight: 600;
 }
 
+.w-100 {
+    width: 105%!important;
+    background: white;
+    position: sticky;
+    background-size: cover;
+    margin-left: -1em;
+}
+
 
 
 /* From Bulma CSS framework used in the Code Institute Project. Adjusted the code for my own web application. */
@@ -483,13 +491,26 @@ input[name='q']::placeholder {
   .column {
     width: 100%;
   }
+body {
+    background: white;
+    width: fit-content;
+}
+
 }
 
 /*Code Institute - Boutique Ado project - Used code and adjusted to my own project. */
 
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 110px;
+        padding-top: 80px;
+    }
+
+    .w-100 {
+        width: 100%!important;
+        background: white;
+        position: sticky;
+        background-size: cover;
+        margin-left: -1em;
     }
 
     body {
