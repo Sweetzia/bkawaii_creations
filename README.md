@@ -59,7 +59,9 @@ I used the comic filter over my logo, so it looks fun on my website.
 **Skeleton**
 
 I created the wireframes using the program “Balsamiq”. 
+
 Click [here][a] for my BKawaii Creations wireframes.
+
 
 **Layout and existing features**
 This is a multi-page layout. 
@@ -96,9 +98,11 @@ Eventually we discovered I did not have DEVELOPMENT = 1 in my environmental vari
 **Main Technologies Used**
 
 Languages used
+
 * This project uses HTML, CSS, JavaScript and Python/Django programming languages.
 
 Tools used
+
 * Balsamiq to create the wireframes for this project.
 * Django as python web framework 
 * Git to handle version control.
@@ -110,6 +114,7 @@ Tools used
 * Django Crispy Forms to style django forms.
 
 Libraries utilised
+
 * Google Fonts to style the website fonts.
 * FontAwesome to provide icons for the online store.
 * Bootstrap 4 to simplify the structure of the website and make the website responsive easily.
@@ -117,13 +122,15 @@ Libraries utilised
 
 **Databases**
 
-Databases used
+Databases used:
+
 During development on my local machine I worked with the standard sqlite3 database installed with Django. 
 On deployment, the SQL database provided by Heroku is a PostgreSQL database.
 
 **Testing**
 
 Manual User testing:
+
 This was the primary method of testing the application. 
 
 Click [here][6] for my Test Write Up.
