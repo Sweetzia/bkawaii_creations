@@ -1,16 +1,22 @@
+
+![Bkawaii Creations](/media/bkawaiicreations.jpg)
+
 BKawaii Creations - Marjolein van Leeuwen
 ------------------------------------------
 **Full Stack Frameworks with Django**
 
-This is my 4th Milestone project for Code Institute. I build a fictional e-commerce web application called Bkawaii Creations. ‘Kawaii’ means Cute or Lovely in Japanese. With this web application I sell my own personal handmade Kawaii Facemasks and Nail Art products.
+This is my 4th Milestone project for Code Institute. I build my own e-commerce web application called Bkawaii Creations. ‘Kawaii’ means Cute or Lovely in Japanese. 
+With this web application I sell my own unique handmade Kawaii Facemasks and Nail Art products.
 
-By creating this web application , I want to show my skills in building a e-commerce website. It is a growing market and e-commerce web applications are getting more and more in demand.
+By creating this web application , I want to show my skills in building a e-commerce website. 
+It is a growing market and e-commerce web applications are getting more and more in demand.
+
 This e-commerce web application is complete with:
 * product search and filter functionality.
 * A functional payment system.
-* A full-featured authentication system including email confirmations and user profiles.
+* An authentication system including email confirmations and user profiles.
 * Real-time notifications that guide the user's experience.
-* And give store owners the ability to add, edit and delete products in the online store.
+* And the ability to give store owners the ability to add and delete products in the online store.
 
 Click [here][DEMO] for my deployed project hosted on Heroku.
 (Mockup of my web app)

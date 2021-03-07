@@ -392,6 +392,7 @@ input[name='q']::placeholder {
     .header-container {
         padding-top: 140px;
     }
+
 }
 
 @media (max-width:767px)
@@ -474,6 +475,7 @@ input[name='q']::placeholder {
   {
     margin-bottom:30px
   }
+  
 }
 
 @media (max-width:767px)
@@ -553,4 +555,5 @@ body {
         padding: .25rem .5rem !important;
     }
 }
+
 
