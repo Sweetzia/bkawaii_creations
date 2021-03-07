@@ -500,7 +500,7 @@ body {
 
 /*Code Institute - Boutique Ado project - Used code and adjusted to my own project. */
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .header-container {
         padding-top: 80px;
     }
