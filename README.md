@@ -196,20 +196,12 @@ I used the tutorials from this project to build my web application.
 ***I want to thank my mentor Brian M for guiding me through the process of creating my web application***
 
 [DEMO]: <https://bkawaiicreations.herokuapp.com/>
-<<<<<<< HEAD
 [a]: <https://github.com/Sweetzia/bkawaii_creations/blob/master/static/wireframes/Bkawaii%20Creations.pdf>
-=======
-[a]: <>
->>>>>>> 675ed53eb01320c9a9a35ff1ff1ccfb2a04e4f11
 [1]: <https://fonts.google.com/specimen/Quicksand?preview.text_type=custom>
 [2]: <https://fonts.google.com/specimen/Pacifico?preview.text_type=custom>
 [3]: <https://www.youtube.com/watch?v=S2TUommS3O0>
 [4]: <https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/>
-<<<<<<< HEAD
 [5]: <https://github.com/AJGreaves/thehouseofmouse#search-page>
-=======
-[5]: <https://github.com/AJGreaves/thehouseofmouse>
->>>>>>> 675ed53eb01320c9a9a35ff1ff1ccfb2a04e4f11
 [6]: <https://github.com/Sweetzia/bkawaii_creations/blob/82de51679ecaba9a82239f41ea136f59c0bf5e40/static/Test%20write-up/Test%20readme%20bkawaii%20creations%20%281%29.pdf>
 [7]: <https://bluetree.ai/screenfly/>
 [8]: <https://sweetzia.github.io/bkawaii_creations/>

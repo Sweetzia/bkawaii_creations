@@ -425,14 +425,6 @@ input[name='q']::placeholder {
     height: 100vh;
     padding-top: 8em;
 }
-<<<<<<< HEAD
-=======
-.container, .container-md, .container-sm {
-    max-width: 720px;
-    padding-top: 5em;
-}
->>>>>>> 675ed53eb01320c9a9a35ff1ff1ccfb2a04e4f11
-
 }
 
 @media (max-width:767px)
