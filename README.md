@@ -7,7 +7,7 @@
 ------------------------------------------
 
 This is my 4th Milestone project for Code Institute. I build my own e-commerce web application called Bkawaii Creations. ‘Kawaii’ means Cute or Lovely in Japanese. 
-With this web application I sell my own unique handmade Kawaii Facemasks and Nail Art products.
+With this web application I sell my own unique handmade Kawaii Facemasks and Nail Art products. 
 
 By creating this web application , I want to show my skills in building a e-commerce website. 
 It is a growing market and e-commerce web applications are getting more and more in demand.
@@ -43,13 +43,16 @@ The target audience to the web store would be:
 * Fans of Kawaii Facemasks
 * Fans of Kawaii Nail Art press-on nails
 * Fans of Kawaii Nail Art palettes
+* Fans of Kawaii Goodies
 
 **Surface**
-* For the surface plane I wanted the design to be pastel coloured and fun. These are the most common used kawaii colours.
-* The colors of my website are : ……….
+* For the surface plane I wanted the design to be pastel coloured and fun. 
+* The colors of my website are : ![colors](/media/colors-hart.jpg)
 * The images used for my products are photographed by myself.
-* I choose the ……….google font for my text on the website.
-* Bkawaii creations logo was designed by myself on canva.com
+* I choose the [Quicksand][1] and [Pacifico][2] google font for my text on the website.
+The buttons are purple coloured and simple. Each button has a text description of it, describing to the user what it's function is.
+* Bkawaii creations logo was designed by myself on canva.com. It portraits me with a kawaii food facemask.
+I used the comic filter over my logo, so it looks fun on my website.
 
 **Skeleton**
 
@@ -59,46 +62,51 @@ Click [here][a] for my BKawaii Creations wireframes.
 **Layout and existing features**
 This is a multi-page layout. 
 There are five different templates used:
-1. Base template for the home page with login, registration, search engine and shoppingbag. On the Homepage you see a images gallery, about section and footer. The footer displays on every template.
+1. Base template for the home page with login, registration, search engine and shoppingbag. 
+The content on my website exists of an about section, popular products section and footer.
 2. Bag template used for the shopping bag page, cart and secure checkout/purchase form.
 3. Checkout template used for the cart, checkout and payment forms. 
 4. Products template to view the products and product details
 5. Profiles template for login, registration and product admininstration
 
-Surface
-* For the surface plane I wanted the design to be pastel coloured and fun. These are the most common used kawaii colours.
-* The colors of my website are : ……….
-* The images used for my products are photographed by myself.
-* I choose the ……….google font for my text on the website.
-* The buttons are purple coloured and simple. Each button has a text description of it, describing to the user what it's function is.
-* Bkawaii creations logo is designed by myself on canva.com
-
 Features Left to Implement
 * A wishlist, where the user can pick products and "favorite" them, before deciding to add them to the cart or not. 
-* Securing the views for superusers and customers
-* Setting up real confirmation emails
+* For the shop owner to edit his products in the product admininstration.
+* Write a customer review section on my homepage
 
-Challenges
+Challenges 
 
-I worked with Git branches for the first time in this project. It was difficult at first and I got scared merging my git branches to my master branch. I was afraid my code would not work anymore. But with the help of this video tutorial: https://www.youtube.com/watch?v=S2TUommS3O0  everything went well with merging my git branches, until I encountered a problem when I went merging my profiles branch to my master. Is was a merge conflict with my binary file db.sqlite3. 
+* I worked with Git branches for the first time in this project. 
+It was difficult at first and I got scared merging my git branches to my master branch. 
+I was afraid my code would not work anymore. But with the help of this video tutorial from [Atlassian][3].
+Everything went well with merging my git branches, until I encountered a problem when I went merging my profiles branch to my master. Is was a merge conflict with my binary file db.sqlite3. 
 I could not resolve the conflict in github with a pull request.
-So I searched for a solution on google and finally discoverd this tip on https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/
-I had no git merge conflicts anymore and my profiles app was added to my master branch. The only thing was, that I had to create a new superuser to gain access to my django administration.
+So I searched for a solution on google and finally discoverd this tip on [Lostechies.com][4].
+I had no git merge conflicts anymore and my profiles app was added to my master branch. 
+The only thing was, that I had to create a new superuser to gain access to my django administration.
 
+* I struglled with my media queries in my base.css. 
+Especially getting my jumbotron right on every mobile device and get everything responsive on a desktop at the same time.
+This is something I still want to improve in after the coding course.
 
+* Deploying my project on Heroku with all the static files and media, was a challenge. I eventually asked tutor support for help.
+Eventually we discovered I did not have DEVELOPMENT = 1 in my environmental variables setting in Gitpod. The images were shown in Gitpod, but not yet in my Heroku app.
+Looking at the [House of Mouse][5] project from Anna Greaves and how she used the Object URL from AWS S3, helped me with my product and logo images to show on my homepage.
+I just had to add the media AWS Object URL link to the image src in my index.html.
 
 Main Technologies Used
 
 Languages used
-* This project uses HTML, CSS, JavaScript and Python programming languages.
+* This project uses HTML, CSS, JavaScript and Python/Django programming languages.
 
 Tools used
 * Balsamiq to create the wireframes for this project.
 * Django as python web framework 
 * Git to handle version control.
 * GitHub to store the project code remotely.
-* PIP for installation of tools needed in this project - pip3 install django - pip3 install django-allauth - pip3 install pillow - pip3 install django-crispy-forms - pip3 install django-countries
+* PIP for installation of tools needed in this project
 * Stripe as payment platform to validate and accept credit card payments securely.
+* Amazon S3 - AWS Cloud Storage for static and media files
 * Heroku for deployment
 * Django Crispy Forms to style django forms.
 
@@ -111,37 +119,29 @@ Libraries utilised
 Databases
 
 Databases used
-During development on my local machine I worked with the standard sqlite3 database installed with Django. On deployment, the SQL database provided by Heroku is a PostgreSQL database.
+During development on my local machine I worked with the standard sqlite3 database installed with Django. 
+On deployment, the SQL database provided by Heroku is a PostgreSQL database.
 
 Testing
 
 Manual User testing:
-This was the primary method of testing the application. I tested the app manually myself and asked relatives to go to my website and give his feedback.
+This was the primary method of testing the application. 
 
-(link to view PDF of testing functionality throughout my web application)
+Click [here][6] for my Test Write Up.
+
+I tested the app manually myself and asked relatives to go to my website and give his feedback.
+I used [Screenfly][7] to test my website in different resolutions.
 
 Responsive design
 
-Lola's Cookbook was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2 and Pixel2XL) to ensure compatibility and responsiveness.
+Bkawaii Creations was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2, Pixel2XL, Surface Duo and Galaxy Fold) to ensure compatibility and responsiveness.
 
-Below are the list of Internet Browsers that were used to test the display of the website:
-1. Google Chrome (Version 77.0)
-2. Mozilla Firefox
-3. Internet Explorer 11
-Manual testing was carried out using the above browsers. No bugs or display issues.
-
-Below are the list of websites I used to test the HTML, CSS, JS and Python code:
-1. W3C HTML Validator This is a HTML online validitor.
-2. W3C CSS Validator This is a CSS online validitor.
-3. CSS Lint CSS Lint is an open source CSS code quality tool I used.
-4. https://extendsclass.com/python-tester.html Python Syntax Checker from extendsclass.com. Python checker allows to check your Python code syntax (Python 3), and find Python errors.
-
-Deployment
+**Deployment**
 
 Deployment
 The project is stored in a GitHub repository and hosted on Heroku.
 
-I followed the next steps to deploy Bkawaii Creations on the GitHub pages:
+I followed the next steps to deploy Bkawaii Creations on the [GitHub][8] pages:
 * Log into GitHub.
 * Select Sweetzia/bkawaii_creations in the repository list.
 * Go to Settings
@@ -150,7 +150,7 @@ I followed the next steps to deploy Bkawaii Creations on the GitHub pages:
 * On selecting Master Branch the page is automatically refreshed.
 * The link can be retrieved to the deployed website.
 
-I followed the next steps to host Bkawaii Creations on Heroku:
+I followed the next steps to host Bkawaii Creations on [Heroku][9]:
 * Created a new application using the Heroku dashboard.
 * Go to settings.py in gitpod bkawaii creations and added heroku database settings
 * $ pip3 manage.py showmigrations
@@ -165,39 +165,41 @@ I followed the next steps to host Bkawaii Creations on Heroku:
 * Create SECRET_KEY and add it with the Config Vars in Heroku.
 * "Manual Deploy", select the master branch then click "Deploy Branch"
 * Created AWS S3 bucket to store static files and media images.
-* Once the build is complete, click on the "View app" button.
+* Putting all the correct Config Vars in Heroku and remove DISABLE_COLLECTSTATIC=1
+* Click on the "View app" button.
 * Open app in Heroku, succesfully deployed app!
 
+**Credits**
 
-Credits Content 
+**Content**
+
 The text content on the website was written by me.
 
-Media
+**Media**
+
 * All my own handmade product images were photographed by myself.
 
-CODE used from:
-* The Boutique Ado Project from Code Institute module 12
-* ……..
-* …….
-
-Acknowledgements:
-* The final milestone project from haydal810: https://github.com/Code-Institute-Submissions/haydal810-Milestone-Project-4
-* The Boutique Ado Project from Code Institute module 12
-
+**Acknowledgements**
 
 I got inspiration from:
-* My favorite kawaii website: www.blippo.com
-* The photos used in this site were obtained from ...
-* I received inspiration for this project from X
-* User story example: https://ascendle.com/ideas/writing-user-stories-its-not-as-difficult-as-you-think/
-* https://maskclub.com/
-* Inspired bij the checkout page from spoonflower.com
-* Canva.com backgrounds web application
-* Merging git branches, this video helped me : https://www.youtube.com/watch?v=S2TUommS3O0
-* Unicorn kawaii image topnav : https://www.freepik.com/free-vector/hand-drawn-kawaii-characters-collection_4098552.htm#page=9&query=kawaii&position=49
-* https://fonts.google.com/specimen/Pacifico?preview.text_type=custom#standard-styles
 
-I want to thank my mentor Brian M for guiding me through the process of creating my web application
+* The Boutique Ado Project from Code Institute module 12. I used code from this project and adjusted it for my own web application.
+* The final milestone project from [haydal810][10]
+* The House of Mouse milestone project from [Anna Greaves][5]
+* My favorite kawaii website: [www.blippo.com][11]
+
+***I want to thank my mentor Brian M for guiding me through the process of creating my web application***
 
 [DEMO]: <https://bkawaiicreations.herokuapp.com/>
 [a]: <https://github.com/Sweetzia/BKawaii-Creations/blob/aed187f71c9b048d8ff4a2e83cebc0810897a2a7/static/wireframes/4th%20Milestone%20Project%20BKawaii%20Creations.pdf>
+[1]: <https://fonts.google.com/specimen/Quicksand?preview.text_type=custom>
+[2]: <https://fonts.google.com/specimen/Pacifico?preview.text_type=custom>
+[3]: <https://www.youtube.com/watch?v=S2TUommS3O0>
+[4]: < https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/>
+[5]: <https://github.com/AJGreaves/thehouseofmouse#search-page>
+[6]: <https://github.com/Sweetzia/bkawaii_creations/blob/582784cc378d976cdcaeade39c460f1e188a0151/static/Test%20write-up/Test%20readme%20bkawaii%20creations%20%281%29.pdf>
+[7]: <https://bluetree.ai/screenfly/>
+[8]: <https://sweetzia.github.io/bkawaii_creations/>
+[9]: <https://bkawaiicreations.herokuapp.com/>
+[10]: <https://github.com/Code-Institute-Submissions/haydal810-Milestone-Project-4>
+[11]: <https://blippo.com>
