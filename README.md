@@ -202,7 +202,7 @@ I used the tutorials from this project to build my web application.
 [2]: <https://fonts.google.com/specimen/Pacifico?preview.text_type=custom>
 [3]: <https://www.youtube.com/watch?v=S2TUommS3O0>
 [4]: <https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/>
-[5]: <https://github.com/AJGreaves/thehouseofmouse#search-page>
+[5]: <https://github.com/AJGreaves/thehouseofmouse>
 [6]: <https://github.com/Sweetzia/bkawaii_creations/blob/582784cc378d976cdcaeade39c460f1e188a0151/static/Test%20write-up/Test%20readme%20bkawaii%20creations%20%281%29.pdf>
 [7]: <https://bluetree.ai/screenfly/>
 [8]: <https://sweetzia.github.io/bkawaii_creations/>
