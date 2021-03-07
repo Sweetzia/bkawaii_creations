@@ -34,7 +34,7 @@ Click [here][DEMO] for my deployed project hosted on Heroku.
 * As a user: I want to be able to purchase these products easily, and pay for them online.
 * As a user: I want the payment service to be easy and clear.
 * As a user: I want to register and login on the web application.
-* As a user/shop owner: I want to add, edit and delete products in the online shop
+* As a user/shop owner: I want to add and delete products in the online shop
 
 **Visitor Goals**
 
@@ -52,36 +52,36 @@ The target audience to the web store would be:
 
 * The images used for my products are photographed by myself.
 * I choose the [Quicksand][1] and [Pacifico][2] google font for my text on the website.
-The buttons are purple coloured and simple. Each button has a text description of it, describing to the user what it's function is.
+* The buttons are purple coloured and simple. Each button has a text description of it, describing to the user what it's function is.
 * Bkawaii creations logo was designed by myself on [canva][12]. It portraits me with a kawaii food facemask.
 I used the comic filter over my logo, so it looks fun on my website.
 
-**Skeleton**
+
+**Skeleton** 
 
 I created the wireframes using the program “Balsamiq”. 
 Click [here][a] for my BKawaii Creations wireframes.
 
 **Layout and existing features**
 This is a multi-page layout. 
-There are five different templates used:
-1. Base template for the home page with login, registration, search engine and shoppingbag. 
-The content on my website exists of an about section, popular products section and footer.
-2. Bag template used for the shopping bag page, cart and secure checkout/purchase form.
-3. Checkout template used for the cart, checkout and payment forms. 
-4. Products template to view the products and product details
-5. Profiles template for login, registration and product admininstration
+There are different templates used:
+1. Base template with login, registration, products, search engine and shoppingbag navbar. 
+2. Index template for the homepage content: about section, popular products section and footer.
+3. Products template to view the products and product details
+4. Bag template used for the shopping bag page
+5. Checkout template used for the checkout and secure purchase. 
+6. Profiles template for login, registration and product admininstration
 
-Features Left to Implement
+**Features Left to Implement**
 * A wishlist, where the user can pick products and "favorite" them, before deciding to add them to the cart or not. 
-* For the shop owner to edit his products in the product admininstration.
-* Write a customer review section on my homepage
+* For the shop owner to edit their products in the product admininstration. For now there is only the option to add and delete products.
+* A video (tutorial) on my homepage where I show customers how I make and wear my facemasks
+* A customer review section on my homepage
 
-Challenges 
-
+**Challenges**
 * I worked with Git branches for the first time in this project. 
 It was difficult at first and I got scared merging my git branches to my master branch. 
-I was afraid my code would not work anymore. But with the help of this video tutorial from [Atlassian][3].
-Everything went well with merging my git branches, until I encountered a problem when I went merging my profiles branch to my master. Is was a merge conflict with my binary file db.sqlite3. 
+I was afraid my code would not work anymore. But with the help of this video tutorial from [Atlassian][3] everything went well with merging my git branches, until I encountered a problem when I went merging my profiles branch to my master. Is was a merge conflict with my binary file db.sqlite3. 
 I could not resolve the conflict in github with a pull request.
 So I searched for a solution on google and finally discoverd this tip on [Lostechies.com][4].
 I had no git merge conflicts anymore and my profiles app was added to my master branch. 
@@ -92,16 +92,16 @@ Especially getting my jumbotron right on every mobile device and get everything 
 This is something I still want to improve in.
 
 * Deploying my project on Heroku with all the static files and media, was a challenge. I eventually asked tutor support for help.
-Eventually we discovered I did not have DEVELOPMENT = 1 in my environmental variables setting in Gitpod. The images were shown in Gitpod, but not yet in my Heroku app.
-Looking at the [House of Mouse][5] project from Anna Greaves and how she used the Object URL from AWS S3, helped me with my product and logo images to show on my homepage.
-I just had to add the media AWS Object URL link to the image src in my index.html.
+Eventually we discovered I did not have DEVELOPMENT = 1 in my environmental variables setting in Gitpod. The images were shown in Gitpod, but not yet in my Heroku app. Looking at the [House of Mouse][5] project from Anna Greaves and how she used the Object URL from AWS S3 helped me solve this problem. I just had to add the media AWS Object URL link to the image src in my index.html.
 
-Main Technologies Used
+**Main Technologies Used**
 
 Languages used
+
 * This project uses HTML, CSS, JavaScript and Python/Django programming languages.
 
 Tools used
+
 * Balsamiq to create the wireframes for this project.
 * Django as python web framework 
 * Git to handle version control.
@@ -113,28 +113,31 @@ Tools used
 * Django Crispy Forms to style django forms.
 
 Libraries utilised
+
 * Google Fonts to style the website fonts.
 * FontAwesome to provide icons for the online store.
 * Bootstrap 4 to simplify the structure of the website and make the website responsive easily.
 * jQuery
 
-Databases
+**Databases**
 
-Databases used
+Databases used:
+
 During development on my local machine I worked with the standard sqlite3 database installed with Django. 
 On deployment, the SQL database provided by Heroku is a PostgreSQL database.
 
-Testing
+**Testing**
 
 Manual User testing:
+
 This was the primary method of testing the application. 
 
 Click [here][6] for my Test Write Up.
 
 I tested the app manually myself and asked relatives to go to my website and give his feedback.
-I used [Screenfly][7] to test my website in different resolutions.
+I used [Screenfly][7] to look at my website in different resolutions.
 
-Responsive design
+**Responsive design**
 
 Bkawaii Creations was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2, Pixel2XL, Surface Duo and Galaxy Fold) to ensure compatibility and responsiveness.
 
@@ -193,12 +196,20 @@ I used the tutorials from this project to build my web application.
 ***I want to thank my mentor Brian M for guiding me through the process of creating my web application***
 
 [DEMO]: <https://bkawaiicreations.herokuapp.com/>
+<<<<<<< HEAD
 [a]: <https://github.com/Sweetzia/bkawaii_creations/blob/master/static/wireframes/Bkawaii%20Creations.pdf>
+=======
+[a]: <>
+>>>>>>> 675ed53eb01320c9a9a35ff1ff1ccfb2a04e4f11
 [1]: <https://fonts.google.com/specimen/Quicksand?preview.text_type=custom>
 [2]: <https://fonts.google.com/specimen/Pacifico?preview.text_type=custom>
 [3]: <https://www.youtube.com/watch?v=S2TUommS3O0>
 [4]: <https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/>
+<<<<<<< HEAD
 [5]: <https://github.com/AJGreaves/thehouseofmouse#search-page>
+=======
+[5]: <https://github.com/AJGreaves/thehouseofmouse>
+>>>>>>> 675ed53eb01320c9a9a35ff1ff1ccfb2a04e4f11
 [6]: <https://github.com/Sweetzia/bkawaii_creations/blob/82de51679ecaba9a82239f41ea136f59c0bf5e40/static/Test%20write-up/Test%20readme%20bkawaii%20creations%20%281%29.pdf>
 [7]: <https://bluetree.ai/screenfly/>
 [8]: <https://sweetzia.github.io/bkawaii_creations/>
