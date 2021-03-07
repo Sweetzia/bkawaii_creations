@@ -402,7 +402,7 @@ input[name='q']::placeholder {
 @media (min-width:767px) and (max-width:1024px){
   .jumbotron {
     background-image: url('/media/background1.png');
-    height: 75vh;
+    height: 110vh;
     background-size: cover;
     background-position: center;
     color: #474545;
@@ -421,7 +421,7 @@ input[name='q']::placeholder {
 /* Ipad pro and larger devices*/
 @media (min-width:1024px) and (max-width:1800px){
   .jumbotron {
-    height: 60vh;
+    height: 100vh;
 }
 }
 
