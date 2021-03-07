@@ -71,13 +71,13 @@ There are different templates used:
 5. Checkout template used for the checkout and secure purchase. 
 6. Profiles template for login, registration and product admininstration
 
-Features Left to Implement
+**Features Left to Implement**
 * A wishlist, where the user can pick products and "favorite" them, before deciding to add them to the cart or not. 
 * For the shop owner to edit their products in the product admininstration. For now there is only the option to add and delete products.
+* A video (tutorial) on my homepage where I show customers how I make and wear my facemasks
 * A customer review section on my homepage
 
-Challenges 
-
+**Challenges**
 * I worked with Git branches for the first time in this project. 
 It was difficult at first and I got scared merging my git branches to my master branch. 
 I was afraid my code would not work anymore. But with the help of this video tutorial from [Atlassian][3] everything went well with merging my git branches, until I encountered a problem when I went merging my profiles branch to my master. Is was a merge conflict with my binary file db.sqlite3. 
@@ -93,7 +93,7 @@ This is something I still want to improve in.
 * Deploying my project on Heroku with all the static files and media, was a challenge. I eventually asked tutor support for help.
 Eventually we discovered I did not have DEVELOPMENT = 1 in my environmental variables setting in Gitpod. The images were shown in Gitpod, but not yet in my Heroku app. Looking at the [House of Mouse][5] project from Anna Greaves and how she used the Object URL from AWS S3 helped me solve this problem. I just had to add the media AWS Object URL link to the image src in my index.html.
 
-Main Technologies Used
+**Main Technologies Used**
 
 Languages used
 * This project uses HTML, CSS, JavaScript and Python/Django programming languages.
@@ -115,13 +115,13 @@ Libraries utilised
 * Bootstrap 4 to simplify the structure of the website and make the website responsive easily.
 * jQuery
 
-Databases
+**Databases**
 
 Databases used
 During development on my local machine I worked with the standard sqlite3 database installed with Django. 
 On deployment, the SQL database provided by Heroku is a PostgreSQL database.
 
-Testing
+**Testing**
 
 Manual User testing:
 This was the primary method of testing the application. 
@@ -131,7 +131,7 @@ Click [here][6] for my Test Write Up.
 I tested the app manually myself and asked relatives to go to my website and give his feedback.
 I used [Screenfly][7] to look at my website in different resolutions.
 
-Responsive design
+**Responsive design**
 
 Bkawaii Creations was tested on the Chrome browser and on multiple mobile devices (iPhone 5, 6, 7, 8, iPad, Ipad-pro, Iphone X, Moto G4, Galaxy S5, Pixel 2, Pixel2XL, Surface Duo and Galaxy Fold) to ensure compatibility and responsiveness.
 
