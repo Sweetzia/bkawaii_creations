@@ -38,7 +38,7 @@ font-weight: 600;
 }
 
 .w-100 {
-    width: 105%!important;
+    width: 106%!important;
     background: white;
     position: sticky;
     background-size: cover;
@@ -500,13 +500,13 @@ body {
 
 /*Code Institute - Boutique Ado project - Used code and adjusted to my own project. */
 
-@media (max-width: 991px) {
+@media (max-width: 767px) {
     .header-container {
         padding-top: 80px;
     }
 
     .w-100 {
-        width: 100%!important;
+        width: 110%!important;
         background: white;
         position: sticky;
         background-size: cover;
