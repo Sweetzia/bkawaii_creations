@@ -427,6 +427,11 @@ input[name='q']::placeholder {
     height: 100vh;
     padding-top: 8em;
 }
+.container, .container-md, .container-sm {
+    max-width: 720px;
+    padding-top: 5em;
+}
+
 }
 
 @media (max-width:767px)

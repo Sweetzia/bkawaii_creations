@@ -21,8 +21,7 @@ This e-commerce web application is complete with:
 
 Click [here][DEMO] for my deployed project hosted on Heroku.
 
-
-(Mockup of my web app)
+![mock-up](/media/Mock-up.jpg)
 
 **UX**
 
