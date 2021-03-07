@@ -21,8 +21,7 @@ This e-commerce web application is complete with:
 
 Click [here][DEMO] for my deployed project hosted on Heroku.
 
-
-(Mockup of my web app)
+![mock-up](/media/Mock-up.jpg)
 
 **UX**
 
@@ -194,13 +193,13 @@ I used the tutorials from this project to build my web application.
 ***I want to thank my mentor Brian M for guiding me through the process of creating my web application***
 
 [DEMO]: <https://bkawaiicreations.herokuapp.com/>
-[a]: <https://github.com/Sweetzia/BKawaii-Creations/blob/aed187f71c9b048d8ff4a2e83cebc0810897a2a7/static/wireframes/4th%20Milestone%20Project%20BKawaii%20Creations.pdf>
+[a]: <https://github.com/Sweetzia/bkawaii_creations/blob/master/static/wireframes/Bkawaii%20Creations.pdf>
 [1]: <https://fonts.google.com/specimen/Quicksand?preview.text_type=custom>
 [2]: <https://fonts.google.com/specimen/Pacifico?preview.text_type=custom>
 [3]: <https://www.youtube.com/watch?v=S2TUommS3O0>
 [4]: <https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/>
 [5]: <https://github.com/AJGreaves/thehouseofmouse#search-page>
-[6]: <https://github.com/Sweetzia/bkawaii_creations/blob/582784cc378d976cdcaeade39c460f1e188a0151/static/Test%20write-up/Test%20readme%20bkawaii%20creations%20%281%29.pdf>
+[6]: <https://github.com/Sweetzia/bkawaii_creations/blob/82de51679ecaba9a82239f41ea136f59c0bf5e40/static/Test%20write-up/Test%20readme%20bkawaii%20creations%20%281%29.pdf>
 [7]: <https://bluetree.ai/screenfly/>
 [8]: <https://sweetzia.github.io/bkawaii_creations/>
 [9]: <https://bkawaiicreations.herokuapp.com/>

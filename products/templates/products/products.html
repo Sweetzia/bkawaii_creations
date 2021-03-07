@@ -47,6 +47,9 @@
                             </select>
                         </div>
                     </div>
+                     </div>
+                    </div>
+                     </div>
                                          <!-- Product count and search results-->
                     <div class="col-12 col-md-6 order-md-first">
                         <p class="text-muted mt-3 text-center text-md-left">
@@ -103,7 +106,8 @@
                                             <!-- Superuser is able to edit and delete products in the product admin-->
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
-                                                    <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                                    <!-- Because my edit form is not working, I left this feature out my web app-->
+                                                   <!-- <a href="{% url 'edit_product' product.id %}">Edit</a> | -->
                                                     <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                                                 </small>
                                             {% endif %}
@@ -139,10 +143,11 @@
                             </div>
                         {% endif %}
                     {% endfor %}
- </div>
+                </div>
             </div>
         </div>
-    </div>
+        </div>
+
 
 <!-- START: FOOTER -->
  <!-- https://codepen.io/scanfcode/pen/MEZPNd -->
