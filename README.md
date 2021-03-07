@@ -1,9 +1,10 @@
 
 ![Bkawaii Creations](/media/bkawaiicreations.jpg)
 
-BKawaii Creations - Marjolein van Leeuwen
+
 ------------------------------------------
 **Full Stack Frameworks with Django**
+------------------------------------------
 
 This is my 4th Milestone project for Code Institute. I build my own e-commerce web application called Bkawaii Creations. ‘Kawaii’ means Cute or Lovely in Japanese. 
 With this web application I sell my own unique handmade Kawaii Facemasks and Nail Art products.
@@ -19,6 +20,8 @@ This e-commerce web application is complete with:
 * And the ability to give store owners the ability to add and delete products in the online store.
 
 Click [here][DEMO] for my deployed project hosted on Heroku.
+
+
 (Mockup of my web app)
 
 **UX**

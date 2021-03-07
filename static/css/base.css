@@ -19,17 +19,19 @@ body {
 
 .jumbotron {
     background-image: url('/media/background1.png');
-    height: 100vh;
+    height: 102vh;
     background-size: cover;
     background-position: center;
     color: #474545;
     border-radius: 0px!important;
+    padding-top: 2em;
 }
 
 .jumbotron h1 {
     font-family: 'Pacifico', cursive;
     font-size: 500%;
     text-shadow: 0 0 5px #ffd1dc;
+    font-size: 3em;
     
 }
 
@@ -373,10 +375,11 @@ input[name='q']::placeholder {
 /*  Media Queries */
 
 /* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .container {
     max-width: 85%;
   }
+    
 }
 
 /* fixed top navbar only on medium and up */
@@ -393,6 +396,41 @@ input[name='q']::placeholder {
         padding-top: 140px;
     }
 
+}
+
+/* Ipad media query */
+@media (min-width:767px) and (max-width:1024px){
+  .jumbotron {
+    background-image: url('/media/background1.png');
+    height: 75vh;
+    background-size: cover;
+    background-position: center;
+    color: #474545;
+    border-radius: 0px!important;
+    padding-top: 7em;
+}
+}
+
+/* Iphone X */
+@media (min-width:375px) and (max-width:812px){
+  .jumbotron {
+    height: 77vh;
+}
+}
+
+/* Ipad pro and larger devices*/
+@media (min-width:1024px) and (max-width:1800px){
+  .jumbotron {
+    height: 60vh;
+}
+}
+
+/* Surface Duo */
+@media (min-width:540px) and (max-width:720px){
+  .jumbotron {
+    height: 107vh;
+    padding-top: 8em;
+}
 }
 
 @media (max-width:767px)
