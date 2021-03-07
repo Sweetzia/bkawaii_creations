@@ -401,27 +401,15 @@ input[name='q']::placeholder {
 /* Ipad media query */
 @media (min-width:767px) and (max-width:1024px){
   .jumbotron {
-    background-image: url('/media/background1.png');
-    height: 110vh;
-    background-size: cover;
-    background-position: center;
-    color: #474545;
-    border-radius: 0px!important;
+    height: 70vh;
     padding-top: 7em;
 }
 }
 
-/* Iphone X */
-@media (min-width:375px) and (max-width:812px){
-  .jumbotron {
-    height: 77vh;
-}
-}
-
 /* Ipad pro and larger devices*/
-@media (min-width:1024px) and (max-width:1800px){
+@media (min-width:1024px) and (max-width:1366px){
   .jumbotron {
-    height: 100vh;
+    height: 60vh;
 }
 }
 
@@ -429,6 +417,14 @@ input[name='q']::placeholder {
 @media (min-width:540px) and (max-width:720px){
   .jumbotron {
     height: 107vh;
+    padding-top: 8em;
+}
+}
+
+/* Desktop responsiveness */
+@media (min-width:767px){
+  .jumbotron {
+    height: 100vh;
     padding-top: 8em;
 }
 }
