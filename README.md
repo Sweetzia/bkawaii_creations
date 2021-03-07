@@ -28,7 +28,6 @@ Click [here][DEMO] for my deployed project hosted on Heroku.
 
 **User stories**
 
-User stories
 * As a user : As a new visitor to BKawaii Creations, I want the page to be easily navigated.
 * As a user:  I want clear instructions on how to view all the products and categories. 
 * As a user: I want the web application to respond quickly to my interaction.
@@ -38,7 +37,8 @@ User stories
 * As a user: I want to register and login on the web application.
 * As a user/shop owner: I want to add, edit and delete products in the online shop
 
-Visitor Goals
+**Visitor Goals**
+
 The target audience to the web store would be:
 * Fans of Kawaii Facemasks
 * Fans of Kawaii Nail Art press-on nails
@@ -47,11 +47,14 @@ The target audience to the web store would be:
 
 **Surface**
 * For the surface plane I wanted the design to be pastel coloured and fun. 
-* The colors of my website are : ![colors](/media/colors-hart.jpg)
+* The colors of my website are : 
+
+  ![colors](/media/colors-hart.jpg)
+
 * The images used for my products are photographed by myself.
 * I choose the [Quicksand][1] and [Pacifico][2] google font for my text on the website.
 The buttons are purple coloured and simple. Each button has a text description of it, describing to the user what it's function is.
-* Bkawaii creations logo was designed by myself on canva.com. It portraits me with a kawaii food facemask.
+* Bkawaii creations logo was designed by myself on [canva][12]. It portraits me with a kawaii food facemask.
 I used the comic filter over my logo, so it looks fun on my website.
 
 **Skeleton**
@@ -85,9 +88,9 @@ So I searched for a solution on google and finally discoverd this tip on [Lostec
 I had no git merge conflicts anymore and my profiles app was added to my master branch. 
 The only thing was, that I had to create a new superuser to gain access to my django administration.
 
-* I struglled with my media queries in my base.css. 
+* I struggled with my media queries in my base.css. 
 Especially getting my jumbotron right on every mobile device and get everything responsive on a desktop at the same time.
-This is something I still want to improve in after the coding course.
+This is something I still want to improve in.
 
 * Deploying my project on Heroku with all the static files and media, was a challenge. I eventually asked tutor support for help.
 Eventually we discovered I did not have DEVELOPMENT = 1 in my environmental variables setting in Gitpod. The images were shown in Gitpod, but not yet in my Heroku app.
@@ -138,8 +141,7 @@ Bkawaii Creations was tested on the Chrome browser and on multiple mobile device
 
 **Deployment**
 
-Deployment
-The project is stored in a GitHub repository and hosted on Heroku.
+**The project is stored in a GitHub repository and hosted on Heroku.**
 
 I followed the next steps to deploy Bkawaii Creations on the [GitHub][8] pages:
 * Log into GitHub.
@@ -183,7 +185,8 @@ The text content on the website was written by me.
 
 I got inspiration from:
 
-* The Boutique Ado Project from Code Institute module 12. I used code from this project and adjusted it for my own web application.
+* The Boutique Ado Project from Code Institute module 12. 
+I used the tutorials from this project to build my web application. 
 * The final milestone project from [haydal810][10]
 * The House of Mouse milestone project from [Anna Greaves][5]
 * My favorite kawaii website: [www.blippo.com][11]
@@ -195,7 +198,7 @@ I got inspiration from:
 [1]: <https://fonts.google.com/specimen/Quicksand?preview.text_type=custom>
 [2]: <https://fonts.google.com/specimen/Pacifico?preview.text_type=custom>
 [3]: <https://www.youtube.com/watch?v=S2TUommS3O0>
-[4]: < https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/>
+[4]: <https://lostechies.com/joshuaflanagan/2010/01/29/how-to-resolve-a-binary-file-conflict-with-git/>
 [5]: <https://github.com/AJGreaves/thehouseofmouse#search-page>
 [6]: <https://github.com/Sweetzia/bkawaii_creations/blob/582784cc378d976cdcaeade39c460f1e188a0151/static/Test%20write-up/Test%20readme%20bkawaii%20creations%20%281%29.pdf>
 [7]: <https://bluetree.ai/screenfly/>
@@ -203,3 +206,4 @@ I got inspiration from:
 [9]: <https://bkawaiicreations.herokuapp.com/>
 [10]: <https://github.com/Code-Institute-Submissions/haydal810-Milestone-Project-4>
 [11]: <https://blippo.com>
+[12]: <https://canva.com>
