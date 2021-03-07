@@ -56,12 +56,11 @@ The target audience to the web store would be:
 * Bkawaii creations logo was designed by myself on [canva][12]. It portraits me with a kawaii food facemask.
 I used the comic filter over my logo, so it looks fun on my website.
 
-**Skeleton**
+
+**Skeleton** 
 
 I created the wireframes using the program “Balsamiq”. 
-
 Click [here][a] for my BKawaii Creations wireframes.
-
 
 **Layout and existing features**
 This is a multi-page layout. 
@@ -197,7 +196,7 @@ I used the tutorials from this project to build my web application.
 ***I want to thank my mentor Brian M for guiding me through the process of creating my web application***
 
 [DEMO]: <https://bkawaiicreations.herokuapp.com/>
-[a]: <https://github.com/Sweetzia/BKawaii-Creations/blob/aed187f71c9b048d8ff4a2e83cebc0810897a2a7/static/wireframes/4th%20Milestone%20Project%20BKawaii%20Creations.pdf>
+[a]: <>
 [1]: <https://fonts.google.com/specimen/Quicksand?preview.text_type=custom>
 [2]: <https://fonts.google.com/specimen/Pacifico?preview.text_type=custom>
 [3]: <https://www.youtube.com/watch?v=S2TUommS3O0>
