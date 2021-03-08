@@ -59,7 +59,11 @@ I used the comic filter over my logo, so it looks fun on my website.
 
 **Skeleton** 
 
-I created the wireframes using the program “Balsamiq”. 
+I created the wireframes using the program “Balsamiq”. 
+My web application has not become exactly the same as my wireframes.
+I was inspired by the purchase system from [Spoonflower.com][17], but I was not able to build this in my web app.
+This is something I would love to build in the future.
+
 Click [here][a] for my BKawaii Creations wireframes.
 
 
@@ -217,3 +221,4 @@ I used the tutorials from this project to build my web application.
 [14]: <https://codepen.io/scanfcode/pen/MEZPNd>
 [15]: <https://github.com/Code-Institute-Solutions/Boutique-Ado>
 [16]: <https://www.youtube.com/watch?v=ZhTnOp-FpE0>
+[17]: <https://spoonflower.com>
