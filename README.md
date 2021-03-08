@@ -192,6 +192,9 @@ I used the tutorials from this project to build my web application.
 * The final milestone project from [haydal810][10]
 * The House of Mouse milestone project from [Anna Greaves][5]
 * My favorite kawaii website: [www.blippo.com][11]
+* The video tutorial from [Web Development Tutorial][16] about Bootstrap 4 Jumbotron Background Image with Centered Navigation Bar - Landing Page
+* How to align images side by side from [w3schools.com][13]
+* The footer template from [scanfcode][14]
 
 ***I want to thank my mentor Brian M for guiding me through the process of creating my web application***
 
@@ -209,3 +212,6 @@ I used the tutorials from this project to build my web application.
 [10]: <https://github.com/Code-Institute-Submissions/haydal810-Milestone-Project-4>
 [11]: <https://blippo.com>
 [12]: <https://canva.com>
+[13]: <https://www.w3schools.com/howto/howto_css_images_side_by_side.asp>
+[14]: <https://codepen.io/scanfcode/pen/MEZPNd>
+[16]: <https://www.youtube.com/watch?v=ZhTnOp-FpE0>
