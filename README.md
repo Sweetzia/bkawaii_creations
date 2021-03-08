@@ -187,7 +187,7 @@ The text content on the website was written by me.
 
 I got inspiration from:
 
-* The Boutique Ado Project from Code Institute module 12. 
+* The [Boutique Ado Project][15] from Code Institute module 12. 
 I used the tutorials from this project to build my web application. 
 * The final milestone project from [haydal810][10]
 * The House of Mouse milestone project from [Anna Greaves][5]
@@ -214,4 +214,5 @@ I used the tutorials from this project to build my web application.
 [12]: <https://canva.com>
 [13]: <https://www.w3schools.com/howto/howto_css_images_side_by_side.asp>
 [14]: <https://codepen.io/scanfcode/pen/MEZPNd>
+[15]: <https://github.com/Code-Institute-Solutions/Boutique-Ado>
 [16]: <https://www.youtube.com/watch?v=ZhTnOp-FpE0>
