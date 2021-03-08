@@ -62,6 +62,7 @@ I used the comic filter over my logo, so it looks fun on my website.
 I created the wireframes using the program “Balsamiq”. 
 Click [here][a] for my BKawaii Creations wireframes.
 
+
 **Layout and existing features**
 This is a multi-page layout. 
 There are different templates used:
